@@ -1,0 +1,20 @@
+{
+  "version": "53.0.0",
+  "files": {
+    "dfba6d211cc69dedabc9802c48b872e25c19174b9237cb2eefa3e685fd961616": {
+      "displayName": "VPCStack Template",
+      "source": {
+        "path": "VPCStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region-d4eea16d": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "dfba6d211cc69dedabc9802c48b872e25c19174b9237cb2eefa3e685fd961616.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

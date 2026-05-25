@@ -1,0 +1,639 @@
+{
+  "/VPCStack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@jsii/runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/Auditbucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AuditbucketCB4A5585"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/ReactBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ReactBucketD3ECCB8D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/VPC/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCB9E5F0B4"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/VPC/IGW": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCIGWB7E252D3"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/VPC/VPCGW": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCVPCGW99B986DC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/PublicLoadBalancer/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PublicLoadBalancer5116A438"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/ReactDistribution/Origin1": [
+    {
+      "type": "aws:cdk:warning",
+      "data": "When the origin with AccessLevel.LIST is associated to the default behavior, it is strongly recommended to ensure the distribution's defaultRootObject is specified,\nSee the \"Setting up OAC with LIST permission\" section of module's README for more info. [ack: @aws-cdk/aws-cloudfront-origins:listBucketSecurityRisk]",
+      "trace": [
+        "Annotations.addMessage (/tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/core/lib/annotations.js:203:29)",
+        "Annotations.addWarningV2 (/tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/core/lib/annotations.js:72:18)",
+        "S3BucketOriginWithOAC.bind (/tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-cloudfront-origins/lib/s3-bucket-origin.js:120:44)",
+        "WrappedClass.addOrigin (/tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-cloudfront/lib/distribution.js:694:49)",
+        "new Distribution (/tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-cloudfront/lib/distribution.js:234:35)",
+        "new Distribution (/tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/core/lib/no-box-stack-traces.js:43:17)",
+        "new Distribution (/tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/core/lib/prop-injectable.js:32:13)",
+        "Kernel._Kernel_create (/home/omarqureshi/.nvm/versions/node/v24.15.0/lib/node_modules/@jsii/runtime/node_modules/@jsii/kernel/lib/kernel.js:478:17)",
+        "Kernel.create (/home/omarqureshi/.nvm/versions/node/v24.15.0/lib/node_modules/@jsii/runtime/node_modules/@jsii/kernel/lib/kernel.js:114:85)",
+        "KernelHost.processRequest (/home/omarqureshi/.nvm/versions/node/v24.15.0/lib/node_modules/@jsii/runtime/lib/host.js:89:28)",
+        "KernelHost.run (/home/omarqureshi/.nvm/versions/node/v24.15.0/lib/node_modules/@jsii/runtime/lib/host.js:24:14)",
+        "Immediate._onImmediate (/home/omarqureshi/.nvm/versions/node/v24.15.0/lib/node_modules/@jsii/runtime/lib/host.js:27:37)",
+        "process.processImmediate (node:internal/timers:504:21)"
+      ]
+    }
+  ],
+  "/VPCStack/ReactDistribution/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ReactDistributionF26DCFE7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/MySQL/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MySQL3B9CF5CC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new MetadataResource in aws-cdk-lib...",
+        "/tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:377 (:)",
+        "...aws-cdk-lib, @jsii/runtime..."
+      ]
+    }
+  ],
+  "/VPCStack/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new MetadataResource in aws-cdk-lib...",
+        "/tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/core/lib/private/synthesis.js:377 (:)",
+        "...aws-cdk-lib, @jsii/runtime..."
+      ]
+    }
+  ],
+  "/VPCStack/ReactBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ReactBucketPolicyB5B5CC61"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/VPC/publicSubnet1/Subnet": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCpublicSubnet1Subnet325F50B2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1044: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/publicSubnet1/RouteTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCpublicSubnet1RouteTableF591E248"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1044: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/publicSubnet1/RouteTableAssociation": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCpublicSubnet1RouteTableAssociationBFFA43B7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1044: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/publicSubnet1/DefaultRoute": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCpublicSubnet1DefaultRoute19059ECD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:835: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib, @jsii/runtime..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/publicSubnet1/EIP": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCpublicSubnet1EIP2D50A06D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/VPC/publicSubnet1/NATGateway": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCpublicSubnet1NATGatewayEEDEB5A1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/VPC/publicSubnet2/Subnet": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCpublicSubnet2Subnet2B2DFF71"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1044: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/publicSubnet2/RouteTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCpublicSubnet2RouteTable55DAB1BB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1044: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/publicSubnet2/RouteTableAssociation": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCpublicSubnet2RouteTableAssociation0849466B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1044: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/publicSubnet2/DefaultRoute": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCpublicSubnet2DefaultRoute9ED4D6BC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:835: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib, @jsii/runtime..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/workloadSubnet1/Subnet": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCworkloadSubnet1SubnetD7F478C4"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1051: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/workloadSubnet1/RouteTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCworkloadSubnet1RouteTable36AB5C22"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1051: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/workloadSubnet1/RouteTableAssociation": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCworkloadSubnet1RouteTableAssociation5AB0B00A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1051: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/workloadSubnet1/DefaultRoute": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCworkloadSubnet1DefaultRoute873BB8F3"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/VPC/workloadSubnet2/Subnet": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCworkloadSubnet2SubnetD49CE8CA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1051: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/workloadSubnet2/RouteTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCworkloadSubnet2RouteTableAD9EB91B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1051: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/workloadSubnet2/RouteTableAssociation": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCworkloadSubnet2RouteTableAssociation5D80B7EC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1051: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/workloadSubnet2/DefaultRoute": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCworkloadSubnet2DefaultRoute250A1876"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/VPC/privateSubnet1/Subnet": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCprivateSubnet1SubnetE522290D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1057: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/privateSubnet1/RouteTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCprivateSubnet1RouteTable41566AF9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1057: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/privateSubnet1/RouteTableAssociation": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCprivateSubnet1RouteTableAssociation43FE0C59"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1057: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/privateSubnet2/Subnet": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCprivateSubnet2Subnet2F4D9530"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1057: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/privateSubnet2/RouteTable": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCprivateSubnet2RouteTableBBE8BB2B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1057: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/privateSubnet2/RouteTableAssociation": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCprivateSubnet2RouteTableAssociation45BBC356"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        ".../tmp/jsii-kernel-YQrU6x/node_modules/aws-cdk-lib/aws-ec2/lib/vpc.js:1057: in aws-cdk-lib...",
+        "Array.forEach (:)",
+        "...aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/VPCStack/VPC/flow-logs-s3/FlowLog": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VPCflowlogss3FlowLog30B3C2F8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/PublicLoadBalancer/SecurityGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PublicLoadBalancerSecurityGroupB60570D0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/PublicLoadBalancer/PublicListener/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "PublicLoadBalancerPublicListenerF18B7C34"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/MySQL/SubnetGroup/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MySQLSubnetGroupA2AB7B72"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/MySQL/SecurityGroup/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MySQLSecurityGroupCAACC784"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/MySQL/Secret/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MySQLSecret76FDA2D7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/ReactDistribution/Origin1/S3OriginAccessControl/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ReactDistributionOrigin1S3OriginAccessControl6C5B6A2E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/VPCStack/MySQL/Secret/Attachment/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MySQLSecretAttachment426B2BAD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @jsii/runtime...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ]
+}
